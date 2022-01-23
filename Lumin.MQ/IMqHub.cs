@@ -16,9 +16,9 @@ namespace Lumin.MQ
         void Sub<T>(Func<T, Task> action, Topic topic, string who, ExecutionDataflowBlockOptions executionDataflowBlockOptions);
         void SubAndReply<TRequest, TResponse>(Func<TRequest, Task<TResponse>> func, Topic topic, string who, ExecutionDataflowBlockOptions executionDataflowBlockOptions);
 
-        PubResponse Pub<T>(T dto, Queue queue, string who, string transld = null);
-        PubResponse Pub<T>(T dto, Topic topic, string who, string transld = null);
-        ReqResponse<MessageReplyResult<TResponse>> Req<TRequest, TResponse>(TRequest dto, Topic topic, TimeSpan tineOut, string who, string transld = null);
+        PubResponse Pub<T>(T dto, Queue queue, string who, string transId = null);
+        PubResponse Pub<T>(T dto, Topic topic, string who, string transId = null);
+        ReqResponse<MessageReplyResult<TResponse>> Req<TRequest, TResponse>(TRequest dto, Topic topic, TimeSpan tineOut, string who, string transId = null);
 
         void Start();
 

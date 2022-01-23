@@ -20,7 +20,7 @@ namespace Lumin.MQ.Solace.AspNetCore
             services.AddSingleton(context);
             services.AddSingleton<IMqHubProvider, MqHubProvider>();
             services.AddTransient(typeof(IMessageHandler<>), typeof(MessageHandler<>));
-            services.AddTransient(typeof(IMessageReplier<,>), typeof(IMessageReplier<,>));
+            services.AddTransient(typeof(IMessageReplier<,>), typeof(MessageReplier<,>));
 
             return services;
         }
@@ -45,7 +45,7 @@ namespace Lumin.MQ.Solace.AspNetCore
         }
 
 
-        public static IServiceCollection AddDefautsSolavice(this IServiceCollection services)
+        public static IServiceCollection AddDefaultSolaceService(this IServiceCollection services)
         {
             return services.AddSolaceService(ContextInstance.SolaceContextInstance);
         }
