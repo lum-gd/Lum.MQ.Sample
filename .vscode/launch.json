@@ -26,6 +26,20 @@
             "console": "integratedTerminal"
         },
         {
+            "name": ".NET Core Launch (worker)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Lumin.MQ.Rabbit.WorkerSample/bin/Debug/net6.0/Lumin.MQ.Rabbit.WorkerSample.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Lumin.MQ.Rabbit.WorkerSample",
+            "stopAtEntry": false,
+            "env": {
+                "DOTNET_ENVIRONMENT": "Development"
+            },
+            "console": "integratedTerminal"
+        },
+        {
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach"

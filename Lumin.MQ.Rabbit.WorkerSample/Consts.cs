@@ -1,4 +1,4 @@
-﻿namespace Lumin.MQ.Rabbit.WebSample
+﻿namespace Lumin.MQ.Rabbit.WorkerSample
 {
     public static class MyHubs
     {

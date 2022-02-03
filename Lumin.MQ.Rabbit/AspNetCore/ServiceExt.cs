@@ -2,33 +2,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lumin.MQ.Rabbit.AspNetCore
 {
     public static class ServiceExt
     {
-        public static IServiceCollection AddDefaultRabbitServices(this IServiceCollection services)
-        {
-            return services.AddRabbitServices();
-        }
-
-        public static IServiceCollection AddRabbitServices(this IServiceCollection services)
-        {
-            services.AddTransient<QDatabase>();
-            services.AddEntityFrameworkSqlite().AddDbContext<QDatabase>();
-
-            services.AddSingleton<IMqHubProvider, MqHubProvider>();
-            services.AddTransient(typeof(IMessageHandler<>), typeof(MessageHandler<>));
-            services.AddTransient(typeof(IMessageReplier<,,>), typeof(MessageReplier<,,>));
-
-            return services;
-        }
-
         public static IApplicationBuilder UseRabbitServices(this IApplicationBuilder app, IHostApplicationLifetime hostApplicationLifetime)
         {
             var qDatabase = app.ApplicationServices.GetRequiredService<QDatabase>();
@@ -46,17 +24,6 @@ namespace Lumin.MQ.Rabbit.AspNetCore
             });
 
             return app;
-        }
-
-        public static IServiceCollection AddRabbitService(this IServiceCollection services)
-        {
-            services.AddTransient<QDatabase>();
-            services.AddEntityFrameworkSqlite().AddDbContext<QDatabase>();
-
-            services.AddSingleton<IMqHub, RabbitMqHub>();
-            services.AddTransient(typeof(IMessageHandler<>), typeof(MessageHandler<>));
-            services.AddTransient(typeof(IMessageReplier<,,>), typeof(MessageReplier<,,>));
-            return services;
         }
 
         public static IApplicationBuilder UseRabbitService(this IApplicationBuilder app, IHostApplicationLifetime hostApplicationLifetime)

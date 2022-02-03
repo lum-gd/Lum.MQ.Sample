@@ -46,8 +46,6 @@ namespace Lumin.MQ.Sample
             hostApplicationLifetime.ApplicationStopping.Register(() =>
             {
                 Log.Information("ApplicationStopping");
-                var mqHubProvider = app.ApplicationServices.GetRequiredService<IMqHubProvider>();
-                mqHubProvider.Dispose();
             });
             hostApplicationLifetime.ApplicationStopped.Register(() => Log.Information("ApplicationStopped"));
             Console.CancelKeyPress += (sender, eventArgs) =>

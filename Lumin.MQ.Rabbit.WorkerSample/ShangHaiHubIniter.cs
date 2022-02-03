@@ -1,9 +1,10 @@
 ﻿using System.Collections.Concurrent;
 using System.Threading.Tasks.Dataflow;
+using Lumin.MQ.Core;
 
-namespace Lumin.MQ.Rabbit.WebSample
+namespace Lumin.MQ.Rabbit.WorkerSample
 {
-    public class ShangHaiHubIniter
+    public class ShangHaiHubIniter : IHubIniter
     {
         public ShangHaiHubIniter(ILogger<ShangHaiHubIniter> logger)
         {

@@ -1,15 +1,16 @@
 using Serilog;
 using Lumin.MQ.Rabbit.AspNetCore;
 using Lumin.MQ.Rabbit;
-using Lumin.MQ.Rabbit.WebSample;
 using Lumin.MQ.Core;
+using Lumin.MQ.Rabbit.Host;
+
+using Lumin.MQ.Rabbit.WebSample;
 
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Debug()
     .WriteTo.Console()
     .WriteTo.Async(a => a.File("Logs/log.txt"))
     .WriteTo.Debug()
-    //.WriteTo.SQLite("Logs/log.db".CreateLogger();
     .CreateLogger();
 
 try
@@ -19,9 +20,8 @@ try
     var builder = WebApplication.CreateBuilder(args);
 
     // Add services to the container.
-    builder.Services.Configure<RabbitHubOptions>(builder.Configuration.GetSection(Consts.RabbitHubOptions));
-    builder.Services.AddSingleton<ShangHaiHubIniter>();
-    builder.Services.AddDefaultRabbitServices();
+    builder.Services.Configure<RabbitHubOptions>(builder.Configuration.GetSection(RabbitConsts.HubOptions));
+    builder.Services.AddRabbitService();
 
     builder.Services.AddRazorPages();
     builder.Host.UseSerilog();
@@ -29,22 +29,6 @@ try
     var app = builder.Build();
 
     var hostApplicationLifetime = app.Lifetime;
-    hostApplicationLifetime.ApplicationStarted.Register(() =>
-    {
-        var mqHubProvider = app.Services.GetRequiredService<IMqHubProvider>();
-        var shangHaiHubIniter = app.Services.GetRequiredService<ShangHaiHubIniter>();
-        shangHaiHubIniter.SubQueue(mqHubProvider.Hubs[MyHubs.ShangHai]);
-        shangHaiHubIniter.SubTopic(mqHubProvider.Hubs[MyHubs.ShangHai]);
-
-        Log.Information("ApplicationStarted");
-    });
-    hostApplicationLifetime.ApplicationStopping.Register(() =>
-    {
-        Log.Information("ApplicationStopping");
-        var mqHubProvider = app.Services.GetRequiredService<IMqHubProvider>();
-        mqHubProvider.Dispose();
-    });
-    hostApplicationLifetime.ApplicationStopped.Register(() => Log.Information("ApplicationStopped"));
     Console.CancelKeyPress += (sender, eventArgs) =>
     {
         Log.Information("CacelKeyPress");
@@ -52,7 +36,7 @@ try
         eventArgs.Cancel = true;
     };
 
-    app.UseRabbitServices(hostApplicationLifetime);
+    app.UseRabbitService(hostApplicationLifetime);
     Log.Information("Rabbit inited");
 
     // Configure the HTTP request pipeline.
