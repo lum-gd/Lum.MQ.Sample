@@ -11,9 +11,6 @@ namespace Lumin.MQ.Rabbit.WorkerSample
             _logger = logger;
         }
         private readonly ILogger _logger;
-        public static List<string> qmsgs => _qmsgs.ToList();
-
-        static ConcurrentQueue<string> _qmsgs = new ConcurrentQueue<string>();
 
         public string HubName { get { return MyHubs.ShangHai; } }
 
@@ -37,13 +34,13 @@ namespace Lumin.MQ.Rabbit.WorkerSample
 
         void HandleQueue(int x)
         {
-            _qmsgs.Enqueue(x.ToString());
+            _logger.LogDebug("received {x}", x);
             //throw new Exception("mock exception");
         }
 
         async Task HandleQueueAsync(int x)
         {
-            _qmsgs.Enqueue(x + "Async");
+            _logger.LogDebug("async received {x}", x);
             //await Task.Delay(10);
             await Task.CompletedTask;
         }

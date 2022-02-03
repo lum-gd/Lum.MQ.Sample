@@ -6,11 +6,6 @@ using System.Threading.Tasks;
 
 namespace Lumin.MQ.Rabbit
 {
-    public class RabbitHubOptions
-    {
-        public RabbitHubOption[] Options { get; set; }
-    }
-
     public class RabbitHubOption
     {
         public string HubName { get; set; }

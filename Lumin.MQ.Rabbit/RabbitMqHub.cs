@@ -1,5 +1,6 @@
 ﻿using Lumin.MQ.Core;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using RabbitMQ.Client;
 using System.Text;
 using System.Text.Json;
@@ -11,10 +12,10 @@ namespace Lumin.MQ.Rabbit
 {
     public class RabbitMqHub : IMqHub, IQueueCollection, ITopicCollection
     {
-        public RabbitMqHub(RabbitHubOption rabbitHubOption, ILogger<RabbitMqHub> logger, IServiceProvider serviceProvider)
+        public RabbitMqHub(IOptions<RabbitHubOption> rabbitHubOption, ILogger<RabbitMqHub> logger, IServiceProvider serviceProvider)
         {
-            _rabbitHubOption = rabbitHubOption;
-            _connectionFactory = new ConnectionFactory() { HostName = rabbitHubOption.Host };
+            _rabbitHubOption = rabbitHubOption.Value;
+            _connectionFactory = new ConnectionFactory() { HostName = _rabbitHubOption.Host };
             _connection = _connectionFactory.CreateConnection();
             _logger = logger;
             _serviceProvider = serviceProvider;

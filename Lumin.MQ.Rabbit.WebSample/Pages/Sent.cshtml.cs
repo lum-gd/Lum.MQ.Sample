@@ -12,10 +12,10 @@ namespace Lumin.MQ.Rabbit.WebSample.Pages
     {
         private readonly ILogger _logger;
 
-        public SentModel(ILogger<SentModel> logger, IMqHubProvider mqHubProvider)
+        public SentModel(ILogger<SentModel> logger, IMqHub mqHub)
         {
             _logger = logger;
-            _hub = mqHubProvider.Hubs[MyHubs.ShangHai];
+            _hub = mqHub;
         }
 
         public void OnGet()

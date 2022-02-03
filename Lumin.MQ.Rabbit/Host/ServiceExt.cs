@@ -6,23 +6,6 @@ namespace Lumin.MQ.Rabbit.Host
 {
     public static class ServiceExt
     {
-        public static IServiceCollection AddDefaultRabbitServices(this IServiceCollection services)
-        {
-            return services.AddRabbitServices();
-        }
-
-        public static IServiceCollection AddRabbitServices(this IServiceCollection services)
-        {
-            services.AddTransient<QDatabase>();
-            services.AddEntityFrameworkSqlite().AddDbContext<QDatabase>();
-
-            services.AddSingleton<IMqHubProvider, MqHubProvider>();
-            services.AddTransient(typeof(IMessageHandler<>), typeof(MessageHandler<>));
-            services.AddTransient(typeof(IMessageReplier<,,>), typeof(MessageReplier<,,>));
-
-            return services;
-        }
-
         public static IServiceCollection AddRabbitService(this IServiceCollection services)
         {
             services.AddTransient<QDatabase>();

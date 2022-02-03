@@ -20,7 +20,7 @@ try
     var builder = WebApplication.CreateBuilder(args);
 
     // Add services to the container.
-    builder.Services.Configure<RabbitHubOptions>(builder.Configuration.GetSection(RabbitConsts.HubOptions));
+    builder.Services.Configure<RabbitHubOption>(builder.Configuration.GetSection(RabbitConsts.HubOption));
     builder.Services.AddRabbitService();
 
     builder.Services.AddRazorPages();

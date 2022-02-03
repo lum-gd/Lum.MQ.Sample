@@ -8,6 +8,10 @@ namespace Lumin.MQ.Rabbit.WorkerSample
         {
             Log.Logger = new LoggerConfiguration()
                 .ReadFrom.Configuration(configuration)
+                .MinimumLevel.Debug()
+                .WriteTo.Console()
+                .WriteTo.Async(a => a.File("Logs/log.txt"))
+                .WriteTo.Debug()
                 .CreateLogger();
 
             return loggingBuilder;
