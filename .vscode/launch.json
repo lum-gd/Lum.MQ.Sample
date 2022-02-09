@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/Lumin.MQ.Rabbit.WebSample/bin/Debug/net6.0/Lumin.MQ.Rabbit.WebSample.dll",
+            "program": "${workspaceFolder}/Lum.MQ.Rabbit.WebSample/bin/Debug/net6.0/Lum.MQ.Rabbit.WebSample.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Lumin.MQ.Rabbit.WebSample",
+            "cwd": "${workspaceFolder}/Lum.MQ.Rabbit.WebSample",
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",
@@ -30,9 +30,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-worker",
-            "program": "${workspaceFolder}/Lumin.MQ.Rabbit.WorkerSample/bin/Debug/net6.0/Lumin.MQ.Rabbit.WorkerSample.dll",
+            "program": "${workspaceFolder}/Lum.MQ.Rabbit.WorkerSample/bin/Debug/net6.0/Lum.MQ.Rabbit.WorkerSample.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Lumin.MQ.Rabbit.WorkerSample",
+            "cwd": "${workspaceFolder}/Lum.MQ.Rabbit.WorkerSample",
             "stopAtEntry": false,
             "env": {
                 "DOTNET_ENVIRONMENT": "Development"

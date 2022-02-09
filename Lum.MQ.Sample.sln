@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lum.MQ", "Lumin.MQ\Lum.MQ.csproj", "{5CD53EBC-70F9-4C0E-ABAE-8E7563507B53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lum.MQ", "Lum.MQ\Lum.MQ.csproj", "{5CD53EBC-70F9-4C0E-ABAE-8E7563507B53}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lum.MQ.Solace", "Lumin.MQ.Solace\Lum.MQ.Solace.csproj", "{F0F33E6E-BEBA-4139-BC86-4A42D860AFBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lum.MQ.Solace", "Lum.MQ.Solace\Lum.MQ.Solace.csproj", "{F0F33E6E-BEBA-4139-BC86-4A42D860AFBA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lum.MQ.Sample", "Lumin.MQ.Sample\Lum.MQ.Sample.csproj", "{C9759330-6AB3-4FF5-AA2E-B05359DDAAF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lum.MQ.Sample", "Lum.MQ.Sample\Lum.MQ.Sample.csproj", "{C9759330-6AB3-4FF5-AA2E-B05359DDAAF2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lum.MQ.Rabbit", "Lumin.MQ.Rabbit\Lum.MQ.Rabbit.csproj", "{CEA81280-50C0-4FD8-A113-7AF2C995E6F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lum.MQ.Rabbit", "Lum.MQ.Rabbit\Lum.MQ.Rabbit.csproj", "{CEA81280-50C0-4FD8-A113-7AF2C995E6F5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lum.MQ.Core", "Lumin.MQ.Core\Lum.MQ.Core.csproj", "{20E0D26B-1FB2-4A3F-A549-D4A84846CF13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lum.MQ.Core", "Lum.MQ.Core\Lum.MQ.Core.csproj", "{20E0D26B-1FB2-4A3F-A549-D4A84846CF13}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lum.MQ.Rabbit.WebSample", "Lumin.MQ.Rabbit.WebSample\Lum.MQ.Rabbit.WebSample.csproj", "{36EE67AC-2A1E-49D3-BE50-0BCE5FF71B14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lum.MQ.Rabbit.WebSample", "Lum.MQ.Rabbit.WebSample\Lum.MQ.Rabbit.WebSample.csproj", "{36EE67AC-2A1E-49D3-BE50-0BCE5FF71B14}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lum.MQ.Rabbit.WorkerSample", "Lumin.MQ.Rabbit.WorkerSample\Lum.MQ.Rabbit.WorkerSample.csproj", "{3A937F16-47AF-4989-A1D4-C25A4B0706B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lum.MQ.Rabbit.WorkerSample", "Lum.MQ.Rabbit.WorkerSample\Lum.MQ.Rabbit.WorkerSample.csproj", "{3A937F16-47AF-4989-A1D4-C25A4B0706B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

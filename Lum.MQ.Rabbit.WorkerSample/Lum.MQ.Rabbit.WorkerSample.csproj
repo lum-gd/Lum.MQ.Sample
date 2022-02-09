@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>dotnet-Lumin.MQ.Rabbit.WorkerSample-54E48114-171B-4B01-9F89-A3842E32285A</UserSecretsId>
+    <UserSecretsId>dotnet-Lum.MQ.Rabbit.WorkerSample-54E48114-171B-4B01-9F89-A3842E32285A</UserSecretsId>
     <ServerGarbageCollection>true</ServerGarbageCollection>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lumin.MQ.Rabbit\Lum.MQ.Rabbit.csproj" />
+    <ProjectReference Include="..\Lum.MQ.Rabbit\Lum.MQ.Rabbit.csproj" />
   </ItemGroup>
 
 </Project>

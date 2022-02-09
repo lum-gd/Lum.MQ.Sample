@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lumin.MQ.Solace\Lum.MQ.Solace.csproj" />
+    <ProjectReference Include="..\Lum.MQ.Solace\Lum.MQ.Solace.csproj" />
   </ItemGroup>
 
 </Project>
