@@ -1,8 +1,8 @@
 using Microsoft.Extensions.DependencyInjection;
-using Lumin.MQ.Core;
+using Lum.MQ.Core;
 using Microsoft.Extensions.Hosting;
 
-namespace Lumin.MQ.Rabbit.Host
+namespace Lum.MQ.Rabbit.Host
 {
     public static class ServiceExt
     {

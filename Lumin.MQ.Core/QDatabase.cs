@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lumin.MQ.Core
+namespace Lum.MQ.Core
 {
     public class QDatabase : DbContext
     {

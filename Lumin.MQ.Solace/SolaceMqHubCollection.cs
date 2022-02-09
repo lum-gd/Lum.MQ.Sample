@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Lumin.MQ.Solace
+namespace Lum.MQ.Solace
 {
     public partial class SolaceMqHub
     {

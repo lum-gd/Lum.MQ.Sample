@@ -1,5 +1,5 @@
 ﻿using System.Text.Json;
-namespace Lumin.MQ
+namespace Lum.MQ
 {
     public interface IReceivedMessageDto
     {

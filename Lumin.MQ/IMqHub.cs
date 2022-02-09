@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using System.Threading.Tasks.Dataflow;
 
-namespace Lumin.MQ
+namespace Lum.MQ
 {
     public interface IMqHub : IDisposable
     {

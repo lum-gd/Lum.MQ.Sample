@@ -5,7 +5,7 @@ using Microsoft.Extensions.Logging;
 using Serilog;
 using System;
 
-namespace Lumin.MQ.Sample
+namespace Lum.MQ.Sample
 {
     public class Program
     {

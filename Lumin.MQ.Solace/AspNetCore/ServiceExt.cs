@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using SolaceSystems.Solclient.Messaging;
 
-namespace Lumin.MQ.Solace.AspNetCore
+namespace Lum.MQ.Solace.AspNetCore
 {
     public static class ServiceExt
     {

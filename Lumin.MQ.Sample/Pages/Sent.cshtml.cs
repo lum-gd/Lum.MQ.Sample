@@ -1,4 +1,4 @@
-using Lumin.MQ.Sample.HubIniters;
+using Lum.MQ.Sample.HubIniters;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace Lumin.MQ.Sample.Pages
+namespace Lum.MQ.Sample.Pages
 {
     public class SentModel : PageModel
     {

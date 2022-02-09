@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "Lumin.MQ.Rabbit.WebSample": {
+    "Lum.MQ.Rabbit.WebSample": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

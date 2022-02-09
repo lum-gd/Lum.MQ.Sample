@@ -1,6 +1,6 @@
 using Serilog;
 
-namespace Lumin.MQ.Rabbit.WorkerSample
+namespace Lum.MQ.Rabbit.WorkerSample
 {
     public static class LoggingBuilderExtensions
     {

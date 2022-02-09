@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Lumin.MQ.Solace.AspNetCore
+namespace Lum.MQ.Solace.AspNetCore
 {
     public interface IMqHubProvider : IDisposable
     {

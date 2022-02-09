@@ -1,4 +1,4 @@
-using Lumin.MQ.Core;
+using Lum.MQ.Core;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Collections.Concurrent;
@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System.Text;
 using System.Text.Json;
 
-namespace Lumin.MQ.Rabbit.WebSample.Pages
+namespace Lum.MQ.Rabbit.WebSample.Pages
 {
     public class SentModel : PageModel
     {

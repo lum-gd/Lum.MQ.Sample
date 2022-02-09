@@ -8,7 +8,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Threading.Tasks.Dataflow;
 
-namespace Lumin.MQ.Solace
+namespace Lum.MQ.Solace
 {
     public class MessageReplier<TRequest, TResponse> : IMessageReplier<TRequest, TResponse>
     {

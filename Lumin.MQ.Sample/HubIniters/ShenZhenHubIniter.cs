@@ -1,5 +1,5 @@
-﻿using Lumin.MQ.Solace;
-using Lumin.MQ.Solace.AspNetCore;
+﻿using Lum.MQ.Solace;
+using Lum.MQ.Solace.AspNetCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Concurrent;
@@ -9,7 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Threading.Tasks.Dataflow;
 
-namespace Lumin.MQ.Sample.HubIniters
+namespace Lum.MQ.Sample.HubIniters
 {
     public class ShenZhenHubIniter : IHubIniter
     {

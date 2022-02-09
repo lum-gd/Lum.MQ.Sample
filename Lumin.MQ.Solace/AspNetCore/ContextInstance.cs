@@ -1,6 +1,6 @@
 ﻿using SolaceSystems.Solclient.Messaging;
 
-namespace Lumin.MQ.Solace.AspNetCore
+namespace Lum.MQ.Solace.AspNetCore
 {
     public static class ContextInstance
     {

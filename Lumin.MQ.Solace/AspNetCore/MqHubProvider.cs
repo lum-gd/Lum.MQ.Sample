@@ -5,7 +5,7 @@ using SolaceSystems.Solclient.Messaging;
 using System;
 using System.Collections.Generic;
 
-namespace Lumin.MQ.Solace.AspNetCore
+namespace Lum.MQ.Solace.AspNetCore
 {
     public class MqHubProvider : IMqHubProvider
     {

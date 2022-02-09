@@ -1,6 +1,6 @@
-using Lumin.MQ.Sample.HubIniters;
-using Lumin.MQ.Solace;
-using Lumin.MQ.Solace.AspNetCore;
+using Lum.MQ.Sample.HubIniters;
+using Lum.MQ.Solace;
+using Lum.MQ.Solace.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
@@ -16,7 +16,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace Lumin.MQ.Sample
+namespace Lum.MQ.Sample
 {
     public class Startup
     {

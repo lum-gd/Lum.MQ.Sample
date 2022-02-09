@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Threading.Tasks.Dataflow;
 using Microsoft.Extensions.Logging;
 
-namespace Lumin.MQ.Core
+namespace Lum.MQ.Core
 {
     public class MessageHandler<T> : IMessageHandler<T>
     {

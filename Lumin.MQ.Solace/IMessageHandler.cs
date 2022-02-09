@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Threading.Tasks.Dataflow;
 
-namespace Lumin.MQ.Solace
+namespace Lum.MQ.Solace
 {
     public interface IMessageHandler : IMessageHandlerBase
     {

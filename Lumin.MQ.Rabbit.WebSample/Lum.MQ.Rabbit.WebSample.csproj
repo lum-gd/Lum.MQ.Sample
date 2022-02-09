@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lumin.MQ.Rabbit\Lumin.MQ.Rabbit.csproj" />
+    <ProjectReference Include="..\Lumin.MQ.Rabbit\Lum.MQ.Rabbit.csproj" />
   </ItemGroup>
 
   <ItemGroup>

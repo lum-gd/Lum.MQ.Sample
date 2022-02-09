@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Lumin.MQ.Solace
+namespace Lum.MQ.Solace
 {
     public class SolaceDatabase : DbContext
     {

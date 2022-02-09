@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lumin.MQ\Lumin.MQ.csproj" />
+    <ProjectReference Include="..\Lumin.MQ\Lum.MQ.csproj" />
   </ItemGroup>
 
 </Project>

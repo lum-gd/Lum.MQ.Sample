@@ -1,9 +1,9 @@
 using Serilog;
-using Lumin.MQ.Rabbit;
-using Lumin.MQ.Core;
-using Lumin.MQ.Rabbit.Host;
+using Lum.MQ.Rabbit;
+using Lum.MQ.Core;
+using Lum.MQ.Rabbit.Host;
 
-using Lumin.MQ.Rabbit.WorkerSample;
+using Lum.MQ.Rabbit.WorkerSample;
 
 try
 {

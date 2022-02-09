@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lumin.MQ.Rabbit
+namespace Lum.MQ.Rabbit
 {
     public class RabbitHubOption
     {

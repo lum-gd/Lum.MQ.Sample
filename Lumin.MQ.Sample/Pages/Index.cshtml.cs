@@ -1,11 +1,11 @@
-﻿using Lumin.MQ.Sample.HubIniters;
-using Lumin.MQ.Solace.AspNetCore;
+﻿using Lum.MQ.Sample.HubIniters;
+using Lum.MQ.Solace.AspNetCore;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Text.Json;
 
-namespace Lumin.MQ.Sample.Pages
+namespace Lum.MQ.Sample.Pages
 {
     public class IndexModel : PageModel
     {

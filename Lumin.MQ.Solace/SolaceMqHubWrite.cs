@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading;
 
-namespace Lumin.MQ.Solace
+namespace Lum.MQ.Solace
 {
     public partial class SolaceMqHub
     {

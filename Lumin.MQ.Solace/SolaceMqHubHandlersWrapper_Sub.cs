@@ -5,7 +5,7 @@ using System.Threading.Tasks.Dataflow;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace Lumin.MQ.Solace
+namespace Lum.MQ.Solace
 {
     public partial class SolaceMqHub
     {

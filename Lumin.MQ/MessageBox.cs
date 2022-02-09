@@ -1,4 +1,4 @@
-﻿namespace Lumin.MQ
+﻿namespace Lum.MQ
 {
     public interface IMessageBox
     {

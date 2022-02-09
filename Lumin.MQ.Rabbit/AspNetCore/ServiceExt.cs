@@ -1,9 +1,9 @@
-﻿using Lumin.MQ.Core;
+﻿using Lum.MQ.Core;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Lumin.MQ.Rabbit.AspNetCore
+namespace Lum.MQ.Rabbit.AspNetCore
 {
     public static class ServiceExt
     {

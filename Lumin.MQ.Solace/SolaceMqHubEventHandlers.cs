@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using SolaceSystems.Solclient.Messaging;
 
-namespace Lumin.MQ.Solace
+namespace Lum.MQ.Solace
 {
     public partial class SolaceMqHub
     {

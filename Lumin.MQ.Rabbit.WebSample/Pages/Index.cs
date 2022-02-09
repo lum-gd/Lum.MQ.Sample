@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Lumin.MQ.Rabbit.WebSample.Pages
+namespace Lum.MQ.Rabbit.WebSample.Pages
 {
     public class IndexModel : PageModel
     {

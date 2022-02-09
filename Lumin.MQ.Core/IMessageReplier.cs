@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading.Tasks.Dataflow;
 
-namespace Lumin.MQ.Core
+namespace Lum.MQ.Core
 {
     public interface IMessageReplier<TMessage> : IMessageHandlerBase
     {

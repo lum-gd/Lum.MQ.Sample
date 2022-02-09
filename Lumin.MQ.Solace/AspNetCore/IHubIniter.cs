@@ -1,4 +1,4 @@
-﻿namespace Lumin.MQ.Solace.AspNetCore
+﻿namespace Lum.MQ.Solace.AspNetCore
 {
     public interface IHubIniter
     {

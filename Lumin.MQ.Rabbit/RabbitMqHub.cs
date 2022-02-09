@@ -1,4 +1,4 @@
-﻿using Lumin.MQ.Core;
+﻿using Lum.MQ.Core;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using RabbitMQ.Client;
@@ -8,7 +8,7 @@ using System.Threading.Tasks.Dataflow;
 using Microsoft.Extensions.DependencyInjection;
 using RabbitMQ.Client.Events;
 
-namespace Lumin.MQ.Rabbit
+namespace Lum.MQ.Rabbit
 {
     public class RabbitMqHub : IMqHub, IQueueCollection, ITopicCollection
     {

@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lumin.MQ.Core\Lumin.MQ.Core.csproj" />
-    <ProjectReference Include="..\Lumin.MQ\Lumin.MQ.csproj" />
+    <ProjectReference Include="..\Lumin.MQ.Core\Lum.MQ.Core.csproj" />
+    <ProjectReference Include="..\Lumin.MQ\Lum.MQ.csproj" />
   </ItemGroup>
 
 </Project>

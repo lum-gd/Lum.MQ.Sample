@@ -1,4 +1,4 @@
-namespace Lumin.MQ.Rabbit.WorkerSample
+namespace Lum.MQ.Rabbit.WorkerSample
 {
     public class Worker : BackgroundService
     {

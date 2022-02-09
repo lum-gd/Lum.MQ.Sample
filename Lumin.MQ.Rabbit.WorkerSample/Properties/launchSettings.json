@@ -1,6 +1,6 @@
 ﻿{
   "profiles": {
-    "Lumin.MQ.Rabbit.WorkerSample": {
+    "Lum.MQ.Rabbit.WorkerSample": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "environmentVariables": {

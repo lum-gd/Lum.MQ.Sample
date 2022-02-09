@@ -1,10 +1,10 @@
 using Serilog;
-using Lumin.MQ.Rabbit.AspNetCore;
-using Lumin.MQ.Rabbit;
-using Lumin.MQ.Core;
-using Lumin.MQ.Rabbit.Host;
+using Lum.MQ.Rabbit.AspNetCore;
+using Lum.MQ.Rabbit;
+using Lum.MQ.Core;
+using Lum.MQ.Rabbit.Host;
 
-using Lumin.MQ.Rabbit.WebSample;
+using Lum.MQ.Rabbit.WebSample;
 
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Debug()

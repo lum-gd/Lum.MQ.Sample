@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Lumin.MQ.Sample.HubIniters
+namespace Lum.MQ.Sample.HubIniters
 {
     public static class Consts
     {

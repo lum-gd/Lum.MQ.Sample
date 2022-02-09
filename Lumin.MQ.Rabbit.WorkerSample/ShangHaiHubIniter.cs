@@ -1,8 +1,8 @@
 ﻿using System.Collections.Concurrent;
 using System.Threading.Tasks.Dataflow;
-using Lumin.MQ.Core;
+using Lum.MQ.Core;
 
-namespace Lumin.MQ.Rabbit.WorkerSample
+namespace Lum.MQ.Rabbit.WorkerSample
 {
     public class ShangHaiHubIniter : IHubIniter
     {

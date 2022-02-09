@@ -1,7 +1,7 @@
 ﻿using SolaceSystems.Solclient.Messaging;
 using System.Collections.Generic;
 
-namespace Lumin.MQ.Solace
+namespace Lum.MQ.Solace
 {
     public class SolaceHubOptions
     {

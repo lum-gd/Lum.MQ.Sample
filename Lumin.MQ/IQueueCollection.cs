@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Lumin.MQ
+namespace Lum.MQ
 {
     public interface IQueueCollection
     {

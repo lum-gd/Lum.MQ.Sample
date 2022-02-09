@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Lumin.MQ.Solace
+namespace Lum.MQ.Solace
 {
     public interface IMessageHandlerBase
     {
