@@ -1,0 +1,445 @@
+{
+  "rootTopicKey": "ec3fa141-ef21-470c-8116-5c255090d373",
+  "editorRootTopicKey": "ec3fa141-ef21-470c-8116-5c255090d373",
+  "focusKey": "91d85d15-20c4-4be4-a2af-8572d5109956",
+  "extData": {
+    "TOPIC_REFERENCE": {
+      "reference": {}
+    }
+  },
+  "topics": [
+    {
+      "key": "91d85d15-20c4-4be4-a2af-8572d5109956",
+      "parentKey": "9a589ce4-7826-4438-b64a-be78f41d2bde",
+      "subKeys": [
+        "d22911fb-6219-4b22-8ed9-49606e84576a",
+        "317a6f0f-114c-4ccd-96ed-13af0dbd061b",
+        "a5fef3f9-d4be-41dc-b03a-b2a3152d0967"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Protocol"
+        }
+      ]
+    },
+    {
+      "key": "a5fef3f9-d4be-41dc-b03a-b2a3152d0967",
+      "parentKey": "91d85d15-20c4-4be4-a2af-8572d5109956",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "JMS"
+        }
+      ]
+    },
+    {
+      "key": "00a8fba3-a3a1-46da-a46a-9d5eae8a9cf2",
+      "parentKey": "997c8df0-1dea-4ea9-a9d8-3e8d88641f20",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "duplicate message"
+        }
+      ]
+    },
+    {
+      "key": "977615dd-cc50-4195-ad02-62d340568f1d",
+      "parentKey": "baa7b3bc-5d8d-4465-b08e-7dab48807aaf",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Send a request and Receive a response"
+        }
+      ]
+    },
+    {
+      "key": "ad76a19c-88b5-4fb3-b4b6-1c7517fc228b",
+      "parentKey": "baa7b3bc-5d8d-4465-b08e-7dab48807aaf",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Listen"
+        }
+      ]
+    },
+    {
+      "key": "7a87b2ed-4594-46b0-9f14-bf01b28c9c52",
+      "parentKey": "125bfd90-1ed6-4741-8487-8a953ab4deed",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Web"
+        }
+      ]
+    },
+    {
+      "key": "ee73cdab-2a98-47d0-869b-d7daca4ebc7b",
+      "parentKey": "ceb5a93a-5d42-4c0b-afc8-94812cb8580d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "c#"
+        }
+      ]
+    },
+    {
+      "key": "ec3fa141-ef21-470c-8116-5c255090d373",
+      "parentKey": null,
+      "subKeys": [
+        "baa7b3bc-5d8d-4465-b08e-7dab48807aaf",
+        "597af15b-0d1a-4007-9685-37a640c92f54",
+        "125bfd90-1ed6-4741-8487-8a953ab4deed",
+        "ceb5a93a-5d42-4c0b-afc8-94812cb8580d",
+        "9a589ce4-7826-4438-b64a-be78f41d2bde"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "MQ"
+        }
+      ]
+    },
+    {
+      "key": "2b9fa936-8845-4bbb-ba08-a872f4e90f97",
+      "parentKey": "ceb5a93a-5d42-4c0b-afc8-94812cb8580d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "java"
+        }
+      ]
+    },
+    {
+      "key": "57552f3f-7687-4d0a-8704-39a344498559",
+      "parentKey": "997c8df0-1dea-4ea9-a9d8-3e8d88641f20",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "miss message"
+        }
+      ]
+    },
+    {
+      "key": "317a6f0f-114c-4ccd-96ed-13af0dbd061b",
+      "parentKey": "91d85d15-20c4-4be4-a2af-8572d5109956",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "MQTT"
+        }
+      ]
+    },
+    {
+      "key": "308b9ba7-828f-4820-bfbc-87b6c4c0c15b",
+      "parentKey": "597af15b-0d1a-4007-9685-37a640c92f54",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Solace"
+        }
+      ]
+    },
+    {
+      "key": "125bfd90-1ed6-4741-8487-8a953ab4deed",
+      "parentKey": "ec3fa141-ef21-470c-8116-5c255090d373",
+      "subKeys": [
+        "7a87b2ed-4594-46b0-9f14-bf01b28c9c52",
+        "4d97bdf6-8791-4f6d-8493-1618465e7ce9",
+        "4827c194-a2ee-4358-ac72-dbd0ca70cf6f"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "App"
+        }
+      ]
+    },
+    {
+      "key": "ceb5a93a-5d42-4c0b-afc8-94812cb8580d",
+      "parentKey": "ec3fa141-ef21-470c-8116-5c255090d373",
+      "subKeys": [
+        "ee73cdab-2a98-47d0-869b-d7daca4ebc7b",
+        "2b9fa936-8845-4bbb-ba08-a872f4e90f97"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Language"
+        }
+      ]
+    },
+    {
+      "key": "baa7b3bc-5d8d-4465-b08e-7dab48807aaf",
+      "parentKey": "ec3fa141-ef21-470c-8116-5c255090d373",
+      "subKeys": [
+        "ad76a19c-88b5-4fb3-b4b6-1c7517fc228b",
+        "eec55e49-3ec8-497f-a08b-61f752995260",
+        "977615dd-cc50-4195-ad02-62d340568f1d"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Core Requirement"
+        }
+      ]
+    },
+    {
+      "key": "597af15b-0d1a-4007-9685-37a640c92f54",
+      "parentKey": "ec3fa141-ef21-470c-8116-5c255090d373",
+      "subKeys": [
+        "308b9ba7-828f-4820-bfbc-87b6c4c0c15b",
+        "13062556-6775-4119-b4f3-1af29f644096"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Infrastructure"
+        }
+      ]
+    },
+    {
+      "key": "17c57b48-900c-4df2-bb92-f6946384cc8b",
+      "parentKey": "997c8df0-1dea-4ea9-a9d8-3e8d88641f20",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "confirm processed"
+        }
+      ]
+    },
+    {
+      "key": "bb7326d8-cf4f-4284-9228-754df1cc7ba1",
+      "parentKey": "46147ea7-bae7-4cd4-9668-82de9f6ffb7e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "queue"
+        }
+      ]
+    },
+    {
+      "key": "d22911fb-6219-4b22-8ed9-49606e84576a",
+      "parentKey": "91d85d15-20c4-4be4-a2af-8572d5109956",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "AMQP"
+        }
+      ]
+    },
+    {
+      "key": "4d97bdf6-8791-4f6d-8493-1618465e7ce9",
+      "parentKey": "125bfd90-1ed6-4741-8487-8a953ab4deed",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Worker"
+        }
+      ]
+    },
+    {
+      "key": "13062556-6775-4119-b4f3-1af29f644096",
+      "parentKey": "597af15b-0d1a-4007-9685-37a640c92f54",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Rabbit"
+        }
+      ]
+    },
+    {
+      "key": "9a589ce4-7826-4438-b64a-be78f41d2bde",
+      "parentKey": "ec3fa141-ef21-470c-8116-5c255090d373",
+      "subKeys": [
+        "46147ea7-bae7-4cd4-9668-82de9f6ffb7e",
+        "91d85d15-20c4-4be4-a2af-8572d5109956",
+        "997c8df0-1dea-4ea9-a9d8-3e8d88641f20"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Core Concept"
+        }
+      ]
+    },
+    {
+      "key": "4827c194-a2ee-4358-ac72-dbd0ca70cf6f",
+      "parentKey": "125bfd90-1ed6-4741-8487-8a953ab4deed",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Shell"
+        }
+      ]
+    },
+    {
+      "key": "46147ea7-bae7-4cd4-9668-82de9f6ffb7e",
+      "parentKey": "9a589ce4-7826-4438-b64a-be78f41d2bde",
+      "subKeys": [
+        "bdf32eb6-4eeb-4a54-b112-ed208f52db1d",
+        "bb7326d8-cf4f-4284-9228-754df1cc7ba1"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Channel"
+        }
+      ]
+    },
+    {
+      "key": "eec55e49-3ec8-497f-a08b-61f752995260",
+      "parentKey": "baa7b3bc-5d8d-4465-b08e-7dab48807aaf",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Send"
+        }
+      ]
+    },
+    {
+      "key": "bdf32eb6-4eeb-4a54-b112-ed208f52db1d",
+      "parentKey": "46147ea7-bae7-4cd4-9668-82de9f6ffb7e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "topic"
+        }
+      ]
+    },
+    {
+      "key": "997c8df0-1dea-4ea9-a9d8-3e8d88641f20",
+      "parentKey": "9a589ce4-7826-4438-b64a-be78f41d2bde",
+      "subKeys": [
+        "57552f3f-7687-4d0a-8704-39a344498559",
+        "00a8fba3-a3a1-46da-a46a-9d5eae8a9cf2",
+        "17c57b48-900c-4df2-bb92-f6946384cc8b"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "QoS"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 2,
+    "theme": {
+      "name": "default",
+      "randomColor": true,
+      "background": "rgb(57,60,65)",
+      "highlightColor": "#50C9CE",
+      "marginH": 60,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5",
+        "fontSize": "16px"
+      },
+      "linkStyle": {
+        "lineRadius": 5,
+        "lineType": "curve",
+        "lineWidth": "3px"
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "fontSize": "36px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "fontSize": "24px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "normalTopic": {
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      }
+    }
+  },
+  "formatVersion": "0.0"
+}
